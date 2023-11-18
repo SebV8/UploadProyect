@@ -1,0 +1,43 @@
+﻿@model WODMaster.BLL.DTO.MembershipModel;
+
+<form asp-action="CreateMembershipForm" method="post" class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Nuevo Usuario</h2>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Nombre membresia</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Descripcion</label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Precio</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalClassesAllowed" class="control-label">Cantidad clases mensuales</label>
+                <input asp-for="TotalClassesAllowed" class="form-control" />
+                <span asp-validation-for="TotalClassesAllowed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vigencia" class="control-label">Vigencia</label>
+                <select asp-for="Vigencia" class="form-control">
+                    <option value="True">Vigente</option>
+                    <option value="False">No Vigente</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+                <span asp-validation-for="Vigencia" class="text-danger"></span>
+            </div>
+
+            <!-- Repite lo anterior para otras propiedades de NuevoUsuario -->
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Membresia</button>
+</form>
+
+

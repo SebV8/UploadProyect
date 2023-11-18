@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.- Presentation Layer", "1.- Presentation Layer", "{15787ACD-A143-4070-A6A2-EF677AC87261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.- Business Logic Layer", "2.- Business Logic Layer", "{944F884F-4177-4233-A90B-6575621544DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.- Data access Layer", "3.- Data access Layer", "{414BA920-25C7-4184-8F4F-20B8C4B12081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.- Shared", "4.- Shared", "{23157DE5-D985-4FC3-926D-BAB9A96A8BA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.- Test", "5.- Test", "{75D9B1D7-FB8E-4A39-8398-95FAAA0570FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WODMaster.Web", "WODMaster.Web\WODMaster.Web.csproj", "{07FD7581-1AB4-4F78-857E-60273A39CD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WODMaster.BLL", "WODMaster.BLL\WODMaster.BLL.csproj", "{AA143953-6A8B-4D8A-AF66-95183AE20B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WODMaster.DAL", "WODMaster.DAL\WODMaster.DAL.csproj", "{177D6D46-8DD5-4E6B-98C2-CF46C14C5446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WODMaster.Shared", "WODMaster.Shared\WODMaster.Shared.csproj", "{9B5485BE-FA67-42FF-B78B-37B0F99D8570}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07FD7581-1AB4-4F78-857E-60273A39CD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FD7581-1AB4-4F78-857E-60273A39CD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FD7581-1AB4-4F78-857E-60273A39CD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FD7581-1AB4-4F78-857E-60273A39CD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA143953-6A8B-4D8A-AF66-95183AE20B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA143953-6A8B-4D8A-AF66-95183AE20B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA143953-6A8B-4D8A-AF66-95183AE20B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA143953-6A8B-4D8A-AF66-95183AE20B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177D6D46-8DD5-4E6B-98C2-CF46C14C5446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177D6D46-8DD5-4E6B-98C2-CF46C14C5446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177D6D46-8DD5-4E6B-98C2-CF46C14C5446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177D6D46-8DD5-4E6B-98C2-CF46C14C5446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5485BE-FA67-42FF-B78B-37B0F99D8570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5485BE-FA67-42FF-B78B-37B0F99D8570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5485BE-FA67-42FF-B78B-37B0F99D8570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5485BE-FA67-42FF-B78B-37B0F99D8570}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07FD7581-1AB4-4F78-857E-60273A39CD9F} = {15787ACD-A143-4070-A6A2-EF677AC87261}
+		{AA143953-6A8B-4D8A-AF66-95183AE20B6E} = {944F884F-4177-4233-A90B-6575621544DA}
+		{177D6D46-8DD5-4E6B-98C2-CF46C14C5446} = {414BA920-25C7-4184-8F4F-20B8C4B12081}
+		{9B5485BE-FA67-42FF-B78B-37B0F99D8570} = {23157DE5-D985-4FC3-926D-BAB9A96A8BA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BE74AAA-77DD-4B7F-8904-6E81AAD5D4CB}
+	EndGlobalSection
+EndGlobal

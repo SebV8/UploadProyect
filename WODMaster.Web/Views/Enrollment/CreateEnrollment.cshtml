@@ -1,0 +1,21 @@
+﻿@model WODMaster.BLL.DTO.EnrollmentModel
+
+@using WODMaster.DAL.Entities
+
+<form asp-controller="Enrollment" asp-action="CreateEnrollmentForm" method="post">
+    <label for="UserId">Seleccione un usuario:</label>
+    <select asp-for="UserId" asp-items="new SelectList(Model.AvailableUsers, nameof(WODMaster.DAL.Entities.User.Id), nameof(WODMaster.DAL.Entities.User.FirstName))"></select>
+
+    <label for="MembershipId">Seleccione una membresía:</label>
+    <select asp-for="MembershipId" asp-items="new SelectList(Model.AvailableMemberships, nameof(Membership.Id), nameof(Membership.Name))"></select>
+
+    <label for="StartDate">Fecha de inicio:</label>
+    <input asp-for="StartDate" type="date" />
+
+    <label for="EndDate">Fecha de fin (opcional):</label>
+    <input asp-for="EndDate" type="date" />
+
+    <!-- Otros campos del formulario -->
+
+    <button type="submit">Inscribirse</button>
+</form>
